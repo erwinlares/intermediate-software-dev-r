@@ -1,6 +1,20 @@
-# The Carpentries Workbench Template R Markdown Lesson
+# Intermediate Research Software Development in R  
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
+## Description
+
+This lesson builds upon the R skills taught in the Data Carpentry and Software Carpentry. It is designed for researchers who want more level up their coding skills. 
+
+## Our Intrepid Authors 
+
+- 🐶 🇺🇸Trisha Adamus
+- 🦊 🇻🇪🇺🇸 Erwin Lares
+- 🥖 🇫🇷 Jean-Yves Sgro
+- 🦠 🇺🇸 Sarah Stevens
+
+
+
+---
+
 
 ## Note about lesson life cycle stage
 Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
