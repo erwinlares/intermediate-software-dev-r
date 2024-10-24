@@ -69,6 +69,7 @@ contact: 'erwin.lares@wisc.edu' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
+- package-creation-01.Rmd
 
 # Information for Learners
 learners: 
