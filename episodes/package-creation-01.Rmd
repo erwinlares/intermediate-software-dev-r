@@ -29,40 +29,28 @@ This is a lesson created via The Carpentries Workbench. It is written in
 Please refer to the [Introduction to The Carpentries 
 Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Challenge 1: What is the correct order of these steps?   
 
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+Organize the steps involved in the creation of a package
+__ binary
+__ source
+__ bundle
+__ in-memory
+__ installed 
 
 :::::::::::::::::::::::: solution 
 
-## Output
+__ source
+__ bundle
+__ binary
+__ installed
+__ in-memory
  
-```output
-[1] "This new lesson looks good"
-```
 
 :::::::::::::::::::::::::::::::::
 
