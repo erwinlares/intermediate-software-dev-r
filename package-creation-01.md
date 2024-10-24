@@ -30,6 +30,7 @@ Please refer to the [Introduction to The Carpentries
 Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
 
 
+![Packages structure and states](images/pkg-str-and-stt.png){alt='A diagram depicting the structures and states of a package'}
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
@@ -37,19 +38,19 @@ Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation
 ## Challenge 1: What is the correct order of these steps?   
 
 Organize the steps involved in the creation of a package
-__ binary
-__ source
-__ bundle
-__ in-memory
-__ installed 
+* __ binary  
+* __ source  
+* __ bundle  
+* __ in-memory  
+* __ installed   
 
 :::::::::::::::::::::::: solution 
 
-__ source
-__ bundle
-__ binary
-__ installed
-__ in-memory
+* __ source  
+* __ bundle  
+* __ binary  
+* __ installed  
+* __ in-memory  
  
 
 :::::::::::::::::::::::::::::::::
