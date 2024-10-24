@@ -2,8 +2,8 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
-
-
-[workbench]: https://carpentries.github.io/sandpaper-docs
+* set up development environment on local computer
+* create repository to host package and documentation in github or gitlab
+* create a package and automate its documentation and testing
+* collaborate with others using github/gitlab to continue updating the package for others to use.
 
