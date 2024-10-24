@@ -71,6 +71,7 @@ episodes:
 - introduction.Rmd
 - environments.Rmd
 - package-creation-01.Rmd
+- code-styling-and-linters.Rmd
 
 # Information for Learners
 learners: 
