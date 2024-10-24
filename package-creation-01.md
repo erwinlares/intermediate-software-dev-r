@@ -30,7 +30,7 @@ Please refer to the [Introduction to The Carpentries
 Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
 
 
-![Packages structure and states](fig/pkg-str-and-stt.png){alt='A diagram depicting the structures and states of a package'}
+Packages structure and states alt='A diagram depicting the structures and states of a package'
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
