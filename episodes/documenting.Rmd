@@ -1,0 +1,27 @@
+---
+title: "Documenting an R Package"
+teaching: 50
+exercises: 4
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- Importance of Documentation
+- How is Documentation organized?
+- How is Documentationn created?
+- What is a "vignette"?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Emphasize the importance of documenting
+- Learn the documentation process
+- Understand the various elements of a Package documentation
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Introduction
+
+Users of an R package will need to understand the purpose of the package and how to use its various functions.
+Providing clear description of the contents with suitable examples will make the package easier to use.
