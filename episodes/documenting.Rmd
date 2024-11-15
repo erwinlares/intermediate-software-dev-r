@@ -73,6 +73,8 @@ The second line in blank and should be used to add a short description of the fu
 Additional lines starting with the special comment can be added for longer descriptions.
 
 The **`@`** tag is added to additional specific code words that may play a role in the function.
+They provide "metadata" to be used for creating help directives.
+
 Roxygen will add these after evaluating the function itself. Here are a few examples:
 
 - Parameters (@param)
@@ -87,7 +89,6 @@ Roxygen will add these after evaluating the function itself. Here are a few exam
 
 *Hint*: when a function is typed **without** the parentheses R will print the function code on the console.
 For example: `ls` 
-
 
 :::::::::::::::::::::::: solution 
 
@@ -111,8 +112,50 @@ function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
           pattern, sorted = TRUE) 
 TRUNCATED HERE
 ```
+:::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 2: Modify the `hello` function above to add a title and a decription
+
+:::::::::::::::::::::::: solution 
+
+Here is one possible way of implementing this:
+
+```
+#' Title: Say Hello
+#'
+#' This function prints 'Hello, world!'.
+#' @return A greeting message.
+#' @export
+hello <- function() {
+  print("Hello, world!")
+}
+```
+
+If you did not add a text on the `@return` line it's OK as we have not yet detailed the significance of these code words.
+
+Once the package completed, the command `?hello` would open the help file for the `hello()` function. 
+This help file would display the documentation generated from the Roxygen2 comments, including the title, description, and details about the function’s return value.
 
 :::::::::::::::::::::::::::::::::
+
+### Roxygen2 tags 
+
+The code words beginning with `@` are called Roxygen2 tags or Roxygen2 directives. 
+As we just have seen, these tags are used to provide metadata in R functions.
+These tags make it easier to generate help files and other documentation automatically.
+Here are the meaning of the two tags from our `hello()` function:
+
+- The `@export` tag indicates that the `hello()` function should be made available to users of the package. 
+It ensures that the function is accessible when the package is loaded, allowing users to call `hello()` directly.
+
+- The `@return` tag describes what the function returns. In this case, it indicates that the `hello()` function returns a *greeting message*.
+
+
+
+
 
 
 
