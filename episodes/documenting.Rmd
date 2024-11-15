@@ -6,18 +6,19 @@ exercises: 4
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- Importance of Documentation
-- How is Documentation organized?
-- How is Documentationn created?
+- Why is documentation important?
+- How is documentation organized?
+- How is documentationn created?
 - What is a "vignette"?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Emphasize the importance of documenting
-- Learn the documentation process
-- Understand the various elements of a Package documentation
+- Emphasize the importance of documenting as you go to maintain clarity and accuracy.
+- Understand how documentation is spread across various parts of the package.
+- Identify where different documentation elements reside within an R package.
+- Automate the documentation process with `roxygen2`, with support from `devtools` and `usethis`. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -25,3 +26,93 @@ exercises: 4
 
 Users of an R package will need to understand the purpose of the package and how to use its various functions.
 Providing clear description of the contents with suitable examples will make the package easier to use.
+For example a "vignette" is a short step-by-step demonstration at least the core functions included in the package.
+
+Human memory is not always reliable, thus creating and updating the documentaion "*as you go*" will help you in maintaining clarity and accuracy in the documentation as it will be an "immediate" record of what you are doing "now." 
+
+## Documenting Functions
+
+The functions used in this package were described in XXXXXXXXXXXXX ETC.
+
+Our purpose here is to add information ***within*** the function iteself that can be used to automatically generate help documents, in particular when a user will type **`?function_name`** to request help.
+
+To achieve this goal, we will use the package `roxygen2` to add a template within an existing function. Some of this pacakge function are available as an RStudio command with the menu cascade: **Code** > **Insert Roxygen Skeleton**.
+
+If this menu is not available, you may need to install  `roxygen2` with the R console command: `install.packages("roxygen2")`
+
+Let's first see the process with a simple example following those steps:
+
+- create a new RScript file with RStudio menu cascade: **File** > **New File** > **R Script**
+- Write a simple "Hello World" function. For example:
+
+```
+hello <- function() {
+  print("Hello, world!")
+}
+```
+
+- Click in the text to place the mouse cursor within the function code.
+- Activate the menu cascade: **Code** > **Insert Roxygen Skeleton**
+- The function will be expanded to add comments above the function using special tags. 
+- All tags start with the  Special comments (**`#'`**)
+
+```
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+hello <- function() {
+  print("Hello, world!")
+}
+```
+
+The first item, Title, is self explanatory.  
+The second line in blank and should be used to add a short description of the function.
+Additional lines starting with the special comment can be added for longer descriptions.
+
+The **`@`** tag is added to additional specific code words that may play a role in the function.
+Roxygen will add these after evaluating the function itself. Here are a few examples:
+
+- Parameters (@param)
+- Return value (@return)
+- Export tag (@export)
+- Example usage (@examples)
+
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 1: Use  **Insert Roxygen Skeleton** to annotate an R function
+
+*Hint*: when a function is typed **without** the parentheses R will print the function code on the console.
+For example: `ls` 
+
+
+:::::::::::::::::::::::: solution 
+
+**Insert Roxygen Skeleton** will add the following to the top of the `ls` text (trucated for brevity.)
+
+```
+#' Title
+#'
+#' @param name 
+#' @param pos 
+#' @param envir 
+#' @param all.names 
+#' @param pattern 
+#' @param sorted 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE, 
+          pattern, sorted = TRUE) 
+TRUNCATED HERE
+```
+
+:::::::::::::::::::::::::::::::::
+
+
+
