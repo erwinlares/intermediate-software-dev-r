@@ -68,10 +68,15 @@ contact: 'erwin.lares@wisc.edu' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.Rmd
-- environments.Rmd
-- package-creation-01.Rmd
-- code-styling-and-linters.Rmd
+- 01-introduction.Rmd
+- 02-version-control.Rmd
+- 03-environments.Rmd
+- 04-code-practices.Rmd
+- 05-testing.Rmd
+- 06-package-creation.Rmd
+- 07-documenting.Rmd
+- 08-collaborating.Rmd
+- 09-wrapup.Rmd
 
 # Information for Learners
 learners: 
