@@ -1,5 +1,5 @@
 ---
-title: "Code Styling and Linters"
+title: "Coding Practices"
 teaching: 50
 exercises: 4
 ---
