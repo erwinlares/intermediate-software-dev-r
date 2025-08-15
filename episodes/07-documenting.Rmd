@@ -153,9 +153,13 @@ It ensures that the function is accessible when the package is loaded, allowing 
 
 - The `@return` tag describes what the function returns. In this case, it indicates that the `hello()` function returns a *greeting message*.
 
+::::::::::::::::::::::::::::::::::::: keypoints  
 
+    - Document creation is automated with `roxygen2` using `devtools` and `usethis`
+    - Documentation is spread across various parts of the package: *e.g.* functions comments and vignettes.
+    - *Document as you go* while creating the package: it is important to maintain clarity and accuracy.
+    - Update the documentation when as the package is updated.
 
-
-
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 
