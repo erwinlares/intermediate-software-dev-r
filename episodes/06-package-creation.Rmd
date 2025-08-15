@@ -108,10 +108,11 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- packages exist on multiple locations/formats 
+- some package formats predate other formats
+- describe the iterative steps in the package creation process
+- the devtools package facilitates the package creation process for R
+- a package is a collection of scripts encapsulated in a very specific way
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
