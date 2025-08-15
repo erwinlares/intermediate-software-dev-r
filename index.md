@@ -2,8 +2,16 @@
 site: sandpaper::sandpaper_site
 ---
 
-* set up development environment on local computer
-* create repository to host package and documentation in github or gitlab
-* create a package and automate its documentation and testing
-* collaborate with others using github/gitlab to continue updating the package for others to use.
+:::::::: objectives
 
+After this workshop, leaners should be able to...
+
+- explain the importance of computational reproducibility in a research project
+- keep track of software versions with a formal version control system (git in this training)
+- describe and implement important coding practices for reproducibility
+- implement formal testing using the testthat package into a software development pipeline
+- create an R package from a collection of scripts
+- create formal documentation, using the roxygen2 and usethis packages
+- set up documentation and repository to invite collaboration by other researchers
+
+::::::::::::::::::
