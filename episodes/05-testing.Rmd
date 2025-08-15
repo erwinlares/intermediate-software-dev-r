@@ -12,8 +12,10 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- explain the basis behind unit testing
+- explain why unit testing improves robustness and reliability
+- describe how the package testthat can be used to automate unit testing
+- write 3-4 automated tests for an R package
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -115,10 +117,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- unit testing can make code more robust
+- unit testing can make code easier to maintain
+- the package testthat can be used to automate unit testing
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
