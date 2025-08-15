@@ -13,7 +13,7 @@ library(janitor)
 library(palmerpenguins)
 
 
-data <- palmenpenguins::penguins |> filter(!is.na(sex))
+data <- palmerpenguins::penguins |> filter(!is.na(sex))
 
 # model four measurements, based on species (island is irrelevant here)
 
