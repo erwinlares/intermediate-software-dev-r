@@ -153,6 +153,32 @@ It ensures that the function is accessible when the package is loaded, allowing 
 
 - The `@return` tag describes what the function returns. In this case, it indicates that the `hello()` function returns a *greeting message*.
 
+::::::::::::::::::::::::::::::::::::: challenge 
+
+Place an **M** for mandatory and an **O** for optional in front of the statements:
+
+```output
+    ___ Installing the roxygen2 package
+    ___ Add comments within functions 
+    ___ Write documentation for help when typing ?function_name in the console.
+    ___ Write a vignette to show examples
+    ___ Write multiple vignettes
+    ___ Updating the documentation as new functions are added  
+```
+
+:::::::::::::::::::::::: solution 
+
+```output
+    ___ Installing the roxygen2 package
+    ___ Add comments within functions 
+    ___ Write documentation for help when typing ?function_name in the console.
+    ___ Write a vignette to show examples
+    ___ Write multiple vignettes
+    ___ Updating the documentation as new functions are added  
+```
+
+:::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: keypoints  
 
     - Document creation is automated with `roxygen2` using `devtools` and `usethis`
