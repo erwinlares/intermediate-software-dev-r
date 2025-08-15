@@ -21,6 +21,18 @@ exercises: 0
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+::::::::::: challenge
+
+Which of these statements are true?
+1. Virtual environments are a tool for R only
+2. Virtual environments can be used to share what packages you used with a collaborator
+3. Virtual environments make sure all your packages are compatible versions
+4. Virtual environments allow you to set a specific version of the package you want to use
+
+::::::::::::::::::::::
+
+
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
