@@ -2,8 +2,13 @@
 site: sandpaper::sandpaper_site
 ---
 
-* set up development environment on local computer
-* create repository to host package and documentation in github or gitlab
-* create a package and automate its documentation and testing
-* collaborate with others using github/gitlab to continue updating the package for others to use.
+:::::::: prereq
+
+Prior to this workshop learners need to know how to...
+- Use Base R
+- Use git from the command line or Rstudio
+- Some familarity with the Unix shell may also be helpful
+
+
+:::::::::::::::
 
